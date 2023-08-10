@@ -20,13 +20,14 @@ Here is a live demo of the sign-up form: [Demo Link](https://relaxo-site.netlify
 
 To run this project locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/sign-up-form.git`
+1. Clone this repository: `git clone https://github.com/handa26/sign-up-form`
 2. Navigate to the project directory: `cd sign-up-form`
 3. Open `index.html` in your web browser.
 
 ## Project Structure
 
 The project directory is organized as follows:
+```
 /
 ├── index.html
 ├── css/
@@ -34,6 +35,7 @@ The project directory is organized as follows:
 ├── images/
 │ └── background.jpg
 └── README.md
+```
 
 ## Technologies Used
 
