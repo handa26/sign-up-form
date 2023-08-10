@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.section_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* === Image Sidebar */
+.image_sidebar {
+  background-image: url("../images/lucas-calloch-vXubmL12t50-unsplash.jpg");
+  width: 40%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_sidebar .logo_wrapper {
+  color: #fff;
+  margin-bottom: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_sidebar .logo_wrapper img {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.image_sidebar .logo_wrapper h1 {
+  font-size: 54px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Form Sidebar */
+.form_sidebar {
+  width: 60%;
+  padding: 140px 60px;
+  background-color: #fff;
+  position: relative;
+}
+
+.form_sidebar .pattern_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+
+.form_sidebar .pattern_left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 156px;
+}
+
+.form_sidebar p {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.form_sidebar form .inputs_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 30px;
+  row-gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form_sidebar form .input_group {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.form_sidebar form .input_group input {
+  width: 100%;
+  height: 27px;
+  border-radius: 10px;
+  border: 2px solid #7c7c7c;
+  padding-left: 10px;
+  transition: border-color 0.3s;
+}
+
+.form_sidebar form .input_group input:focus {
+  border: 3px solid #555 !important;
+}
+
+.form_sidebar form .input_group input:invalid {
+  border-color: #C70039 !important;
+}
+
+.form_sidebar form .input_group input:valid {
+  border-color: #7EAA92 !important;
+}
+
+.form_sidebar form .input_group label {
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form_sidebar form + p {
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form_sidebar form + p a {
+  color: #5B9A8B;
+}
+
+.form_sidebar form button {
+  width: 211px;
+  border: none;
+  height: 43px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5B9A8B;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.form_sidebar form button:hover {
+  background-color: #9ED2BE;
+}

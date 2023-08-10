@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relaxo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <section class="section_wrapper">
+      <!-- Image sidebar -->
+      <div class="image_sidebar">
+        <div class="logo_wrapper">
+          <img src="./images/onsen-white.svg" alt="" />
+          <h1>Relaxo</h1>
+        </div>
+      </div>
+
+      <!-- Form sidebar -->
+      <div class="form_sidebar">
+        <img src="./images/bg-pattern-intro-right-desktop.svg" alt="pattern-right" class="pattern_right">
+        <img src="./images/bg-pattern-intro-left-desktop.svg" alt="pattern-right" class="pattern_left">
+        <p>
+          Enjoy the best hot springs in your place. Whether you want to relax,
+          rejuvenate, or have fun, Relaxo has the perfect option for you. <br>Sign
+          up now and get access to exclusive deals and discounts. Relaxo is the
+          ultimate way to experience the natural and thermal wonders of hot
+          springs.
+        </p>
+
+        <form action="">
+          <div class="inputs_wrapper">
+            <div class="input_group">
+              <label for="first_name">First Name*</label>
+              <input type="text" name="first_name" id="first_name" required />
+            </div>
+            <div class="input_group">
+              <label for="last_name">Last Name</label>
+              <input type="text" name="last_name" id="last_name" />
+            </div>
+            <div class="input_group">
+              <label for="email">Email*</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input_group">
+              <label for="phone">Phone Number*</label>
+              <input
+                type="tel"
+                name="phone"
+                pattern="^\+62[0-9]{9,11}$"
+                id="phone"
+                placeholder="+6281234567890"
+                required
+              />
+            </div>
+            <div class="input_group">
+              <label for="password">Password*</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="input_group">
+              <label for="confirm-password">Confirm Password*</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit">Join Now</button>
+        </form>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </section>
+  </body>
+</html>
